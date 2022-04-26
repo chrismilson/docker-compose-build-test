@@ -1,0 +1,8 @@
+version: '3'
+services:
+  a:
+    build:
+      context: services/a
+  b:
+    build:
+      context: services/b
